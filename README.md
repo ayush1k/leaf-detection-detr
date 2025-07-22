@@ -24,6 +24,8 @@ Dataset Structure
 Your dataset folder (e.g., leaf-detection) should be placed directly in your Google Drive (e.g., /content/drive/MyDrive/leaf-detection/). Inside this folder, the expected structure is:
 
 /content/drive/MyDrive/leaf-detection/
+
+
 ├── train/
 │   ├── LEAF_0001.jpg
 │   ├── LEAF_0002.jpg
@@ -34,6 +36,8 @@ Your dataset folder (e.g., leaf-detection) should be placed directly in your Goo
 │       ├── TEST_002.jpg
 │       └── ... (All your test images are in the 'test/leaf' folder)
 └── train.csv (Your annotation file for training images)
+
+
 
 train.csv Format
 The train.csv file should contain the bounding box annotations for your training images. The code specifically expects the following columns:
